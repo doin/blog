@@ -1,0 +1,249 @@
+# ---------------------------------------------------------------
+#   Site Information And Theme Configuration Settings
+#   language: zh-CN
+# ---------------------------------------------------------------
+
+## menu
+menu:
+- page: Home
+  url: /
+  icon:
+- page: Work
+  url: /categories/Work/
+  icon:
+- page: Life
+  url: /categories/Life/
+  icon:
+- page: Wealth
+  url: /categories/Wealth/
+  icon:
+- page: History
+  url: /History/
+  icon:
+
+## favicon
+favicon: /favicon.ico
+
+## Feed
+rss: /atom.xml
+
+## Carousel
+carousel:
+  img: ''
+  url: 'http://doin.github.io'
+
+# 各个小工具的设置
+
+## widgets
+widgets:
+  - search
+  - notification
+  - social
+  - category
+  - archive
+  - tagcloud
+  - friends
+
+
+## 搜索
+jsonContent:
+  searchLocal: true
+  searchGoogle: false
+  posts:
+    title: true
+    text: true
+    content: true
+    categories: false
+    tags: false
+
+## 网站公告设置
+notification: |-
+            <p>
+                在线电影：<a href="http://akyy.vip" title="fork me" target="_blank">爱看电影</a> <br/>
+            </p>
+
+## 社交设置
+social:
+ - name: Github
+   icon: git
+   href: //github.com/doin
+ - name: 邮箱
+   icon: envelope-o
+   href: mailto:doin0719@qq.com
+ - name: 联系QQ
+   icon: qq
+   href: /
+ - name: 微信
+   icon: weixin
+   href: /
+ - name: QQ群
+   icon: users
+   href: /
+ - name: RSS
+   icon: feed
+   href: /atom.xml
+
+## 文章分类设置
+cate_config:
+   show_count: true
+   show_current: true
+
+## 文章归档设置
+arch_config:
+   type: 'monthly'
+   format: 'YYYY年MM月'
+   show_count: true
+   order: -1
+
+## 标签云设置
+tagcloud:
+  tag3d: false
+  textColour: '#444'
+  outlineMethod: 'block'
+  outlineColour: '#FFDAB9'
+  interval: 30
+  freezeActive: true
+  frontSelect: true
+  reverse: true
+  wheelZoom: false
+
+## 友链设置
+links:
+  - Hexo官网: https://hexo.io/zh-cn/
+
+
+# 主题自定义个性化配置
+
+## 网站宣传语
+branding:
+
+## 设置banner背景图片
+banner:
+    img: http://img5.imgtn.bdimg.com/it/u=1062533689,3702565508&fm=26&gp=0.jpg
+
+## 首页列表底部面板
+homePanel: true
+
+## 缩略图自定义随机图片
+defaultImgs:
+  -
+
+## 截取文章首页描述字数
+excerptLength: 120
+
+## 是否开启文章目录
+toc: true
+
+## 代码高亮配置
+highlightTheme:
+
+## bootstrap配置
+bootstrap:
+
+## ICON配置
+fontAwesome:
+
+## 文章过期提醒功能
+warning:
+  days: 300
+  text: '本文于%d天之前发表，文中内容可能已经过时。'
+
+## 文章内声明
+declaration:
+  enable: true
+  title: '转载声明'
+  tip: |-
+      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="http://doin.github.io" target="_blank">Doin</a>
+
+## 文章打赏
+reward:
+  alipay: ''
+  wepay: ''
+  tip: 赞赏是不耍流氓的鼓励
+
+## 主题评论
+
+## Valine评论
+valine:
+   enable: true
+   appId: xOKV9J4UeQAtVkvnJC7Kq2Jn-gzGzoHsz
+   appKey: erIpQac4azoCmgfBB7Dl9maa
+   placeholder: 说点什么吧
+   notify: false
+   verify: true
+   avatar: mm
+   meta: nick,mail
+   pageSize: 10
+
+### 畅言评论(需要ICP备案)
+changyan:
+  enable: false
+  appid:
+  conf:
+
+### 来必力
+livere:
+  enable: false
+  livere_uid: MTAyMC8zMzA1MS85NjEz
+
+## Gitalk评论
+gitalk:
+   enable: false
+   clientID:
+   clientSecret:
+   repo:
+   owner:
+   admin:
+   perPage:
+   distractionFreeMode: true
+
+### Disqus评论
+disqus:
+  enable: false
+  shortname: snippet
+  count: false
+
+### gitment评论(长期不更新，不建议使用)
+gitment:
+  enable: false
+  owner:
+  repo:
+  client_id:
+  client_secret:
+  perPage: 10
+
+### 友言评论(服务不稳定)
+uyan:
+  enable: false
+  uyan_id: 1966422
+
+
+## 网站访客统计
+visit_counter:
+   site: false
+   page: false
+
+## 网站访问统计分析
+
+### 网盟CNZZ统计
+cnzz_analytics: 1263868967
+
+### 百度统计
+baidu_analytics:
+
+### 谷歌统计
+google_analytics:
+
+### 腾讯分析
+tencent_analytics:
+
+### 百度站点认证
+baidu_site_verification:
+
+### 百度自动推送
+baidu_push: false
+
+#网站主题配置
+since: 2017
+robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all
+version: 1.2.3
